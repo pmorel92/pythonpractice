@@ -5,7 +5,7 @@ print("Wait there are not 10 things in that list. Let's fix that")
 stuff = ten_things.split(" ")
 more_stuff = ["Day", "Night", "Song", "Frisbee", "Corn", "Banana", "Girl", "Lesbian"]
 
-while len(stuff) != 10:
+if len(stuff) != 10:
     next_one = more_stuff.pop()
     print("Adding: ", next_one)
     stuff.append(next_one)
